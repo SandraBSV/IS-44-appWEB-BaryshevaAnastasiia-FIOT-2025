@@ -1,4 +1,5 @@
 Online Electronics Store “ByteShop”<br>
+<br>
 Relevance of the Topic<br>
 With the continuous development of digital technologies and the rapid growth of e-commerce, demand for online platforms offering electronic devices continues to increase. Modern users prefer convenient and fast purchasing processes, comparing characteristics, and receiving expert recommendations online. An online electronics store enables wider customer outreach, automation of the sales cycle, and optimization of inventory management, while also supporting the promotion of innovative technologies in both national and international markets.<br>
 <br>
