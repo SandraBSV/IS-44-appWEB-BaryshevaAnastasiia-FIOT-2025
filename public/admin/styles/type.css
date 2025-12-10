@@ -1,0 +1,247 @@
+header {
+    width: 99%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFFFF;
+    background: #2E2E2E;
+    padding: 10px;
+}
+
+.title {
+    background: #E60023;
+    border-radius: 20px;
+    height: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.RL-item {
+    Width: 60%;
+    height: 50px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #D3E3FF;
+    transition: background 0.3s;
+    font-size: 110%;
+    font-weight: bold;
+    color: #2E2E2E;
+    text-decoration: none;
+}
+
+.RL-item:hover {
+    background-color: #E60023;
+    color:#D3E3FF;
+}
+
+body {
+    background-color: #D0D0D0;
+}
+
+.general {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.table {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+} 
+
+table, th, td {
+    background-color: #D3E3FF;
+    border: 3px solid #2E2E2E;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.buttonE {
+    background: #D3E3FF;
+    margin: 3%;
+    border-radius: 20px;
+    font-size: 110%;
+    font-weight: bold;
+    width: 90%;
+    height: 60px;
+    padding-left: 20px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    color: #2E2E2E;
+}
+
+.buttonE:hover {
+    background-color: #E60023;
+    color:#D3E3FF;
+}
+
+.button1 {
+    background: #2E2E2E;
+    margin: 3%;
+    border-radius: 20px;
+    font-size: 110%;
+    font-weight: bold;
+    width: 100%;
+    height: 60px;
+    padding-left: 20px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    color: #D3E3FF;
+}
+
+.button1:hover {
+    background-color: #E60023;
+    color:#2E2E2E;
+}
+
+.button {
+    background: #D3E3FF;
+    margin: 3%;
+    float: right;
+    border-radius: 20px;
+    font-size: 110%;
+    font-weight: bold;
+    width: 80%;
+    height: 60px;
+    padding-left: 20px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    color: #2E2E2E;
+}
+
+.button:hover {
+    background-color: #E60023;
+    color:#D3E3FF;
+}
+
+
+.types-item a {
+    font-size: 130%;
+    font-weight: bold;
+    color: #2E2E2E;
+    text-decoration: none;
+}
+
+.types-item a:hover {
+    color: #E60023;
+    text-decoration: none;
+}
+
+
+/* --- Модальне затемнення поверх сторінки --- */
+.modal-overlay {
+    position: fixed;         
+    top: 0;
+    left: 0;
+    width: 100vw;           
+    height: 100vh;          
+    background: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    justify-content: center; 
+    align-items: center;       
+    z-index: 9999;           
+}
+
+/* --- Контейнер самої форми --- */
+.form-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #D3E3FF;
+    color: #2E2E2E;
+    border: 3px solid #2E2E2E;
+    border-radius: 20px;
+    width: 500px; 
+    max-width: 90%;
+    padding: 30px; 
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* --- Заголовок форми --- */
+.form-container h3 {
+    font-size: 120%;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* --- Поля вводу --- */
+.form-container input[type="text"],
+.form-container input[type="number"],
+.form-container textarea {
+    width: 90%; 
+    padding: 8px 10px;
+    border-radius: 10px;
+    border: 1px solid #2E2E2E;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+/* --- Лейбли --- */
+.form-container label {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* --- Кнопки --- */
+.form-container button {
+    width: 45%;
+    padding: 10px;
+    font-weight: bold;
+    color: #D3E3FF;
+    background-color: #2E2E2E;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.form-container button:hover {
+    background-color: #E60023;
+    color: #2E2E2E;
+}
+
+/* --- Контейнер кнопок --- */
+.form-container .button-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.form-container .button-group button {
+    flex: 1; 
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+}

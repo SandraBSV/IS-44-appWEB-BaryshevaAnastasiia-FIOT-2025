@@ -1,96 +1,79 @@
-Online Electronics Store “ByteShop”<br>
-<br>
+Online Beadwork Store “Flames of Darkness”<br><br>
 Relevance of the Topic<br>
-With the continuous development of digital technologies and the rapid growth of e-commerce, demand for online platforms offering electronic devices continues to increase. Modern users prefer convenient and fast purchasing processes, comparing characteristics, and receiving expert recommendations online. An online electronics store enables wider customer outreach, automation of the sales cycle, and optimization of inventory management, while also supporting the promotion of innovative technologies in both national and international markets.<br>
-<br>
+With the rapid growth of e-commerce, more and more people prefer online shopping — particularly in the handmade and artisan goods sector. The topic is relevant because beadwork jewelry is highly popular among young people and admirers of unique items, as it emphasizes individuality. An online beadwork store helps expand the audience of buyers, automate the sales process, and promote Ukrainian handmade products both domestically and internationally.<br><br>
 Topic<br>
-HTML document tags and attributes. Structural markup. GIT. GitHub. Working with repositories. Description of the logic of a personal web application.<br>
-<br>
+HTML document tags and attributes. Structural markup. GIT. GitHub. Working with repositories. Description of the logic of a personal web application.<br><br>
 Purpose of the Project<br>
-To simplify and accelerate the process of browsing, comparing, and purchasing electronic devices, provide the ability to pre-order new models, and offer multiple payment and delivery options based on user needs.<br>
-<br>
+To simplify and speed up the process of browsing and selecting beadwork items, enable ordering and pre-ordering, and provide various payment and delivery options.<br><br>
 Objectives<br>
-1. Analyze the needs and priorities of the target audience.<br>
-2. Develop a user-friendly, adaptive, and visually appealing interface.<br>
-3. Implement a detailed catalog with photos, specifications, and pricing.<br>
-4. Create a shopping cart and checkout system.<br>
-5. Integrate secure payment processing and reliable delivery services.<br>
-6. Develop an admin panel for managing products, categories, and orders.<br>
-7. Implement a review and rating system to increase customer trust.<br>
-8. Provide the ability to compare products by technical characteristics.<br>
-<br>
+* Analyze the needs of the target audience.
+* Develop a user-friendly and visually appealing design and interface.
+* Implement a product catalog with photos, descriptions, and prices.
+* Create a shopping cart and checkout system.
+* Integrate payment and delivery services.
+* Develop an admin panel for managing products and orders.
+* Implement a feedback and rating system to increase customer trust.<br>
 Object of the Work<br>
-An e-commerce information system for selling electronic devices.<br>
-<br>
+An e-commerce information system for selling beadwork products.<br><br>
 Subject of the Work<br>
-Software (online store) that manages sales, product inventory, orders, technical characteristics, and communication with clients.<br>
-<br>
+Software (online store) that manages sales, product inventory, orders, and communication with clients.<br><br>
 Business Logic<br>
-A user must register or log in to place an order. Items added to the cart must be purchased within 24 hours, otherwise they are automatically released back to inventory. Users can choose delivery options, schedule delivery time, and add extra notes (e.g., gift packaging). Discount programs are applied for loyal customers, and temporary promo codes are available for seasonal sales.<br>
-<br>
+A user must log in to place an order or make a purchase. The cart must be paid for within 24 hours of order placement. The user can set the date and time of delivery and optionally add a note to the order. There are discount features for regular customers and holiday promo codes available in the user’s account.<br><br>
+
 Main Functionality<br>
-<br>
 Home Page<br>
-Upon opening the web application, the user can log in or register. After authorization, the home page allows users to:<br>
-1. Select product categories and navigate to a separate page for viewing.<br>
-2. Swipe through promotional banners and highlighted product photos.<br>
-3. Read about the store’s mission, service policy, and warranty conditions.<br>
-4. View contact information and customer support options.<br>
+When loading the web application, the user can log in or register.<br>
+After login, the home page is displayed, allowing users to:
+* Select a category of products and view it on a separate page.
+* Swipe through product photos.
+* Read about the store’s history and the artisan.
+* Access store information, including contact details.<br>
 The home page includes three semantic sections:<br>
-1. Header — contains a search bar, category shortcuts, and user options (profile/login/registration).<br>
-2. Main — divided into three sections:<br>
-   2.1. Categories (available types of electronics)<br>
-   2.2. Featured product gallery<br>
-   2.3. Store information (technical support, warranty, returns)<br>
-3. Footer — includes contact details, delivery options, warranty service points, and social media links.<br>
-<br>
+1. Header — contains a search bar and user options (profile/login/registration).
+2. Main — divided into three sections:
+o Categories (to show the store’s assortment).
+o Product gallery (to attract the user’s interest).
+o Store history (about the shop and artisan, and how the products are made).
+3. Footer — includes contact information, delivery details, and other info.<br>
 Categories Page<br>
-After selecting a category, the user is redirected to the “Categories” page. It includes:<br>
-1. The category name under the header.<br>
-2. Two sections:<br>
-  2.1. Search/filters (price range, brand, specifications, availability)<br>
-  2.2.Product listings (preview photo, name, and price)<br>
-<br>
+When a user selects a category, they are redirected to the “Categories” page.<br>
+It contains:<br>
+* The category name under the header.
+* Two sections:<br>
+1. Search — left block with filters and search criteria.<br>
+2. Products — right block displaying product names and prices.<br>
 Product Page<br>
-When clicking an item, the user is redirected to the “Product” page containing:<br>
-1. Product name and model information<br>
-2. High-quality photos<br>
-3. Price and available delivery options<br>
-4. Full description with technical characteristics<br>
-5. Warranty details and availability status<br>
-<br>
+When clicking a product, the user is redirected to the “Product” page.<br>
+It includes:<br>
+* Product name (below the header).<br>
+* Photo, price, delivery options, and description with characteristics.<br>
 Registration / Authorization<br>
-By selecting “Register” or “Login” in the header, the user accesses the respective form page, which must be filled out to proceed.<br>
-<br>
+By clicking “Register” or “Login” in the header, the user is redirected to the respective form page, which must be filled out to proceed.<br>
 User Account<br>
-After registering or logging in, the user gains access to a personal account, which includes:<br>
-1. Personal Data — a left block containing personal info (name, phone, email, optional profile photo)<br>
-2. Orders — a right block showing the list of previous and current orders with status tracking<br>
-3. Wishlist (optional) — saved products for future consideration<br>
-<br>
-Functional Requirements<br>
-1. Guests can freely browse the website.<br>
-2. Guests can view all product categories.<br>
-3. Guests can view detailed information about products.<br>
-4. Users can create an account or log in.<br>
-5. A gallery with promotional banners and product photos is available.<br>
-6. Store information (contacts, locations, support) is accessible.<br>
-7. Authorized users can place orders.<br>
-8. Users can edit the cart before confirmation.<br>
-9. Users can compare products by parameters.<br>
-10. Users can choose payment and delivery methods.<br>
-11. Users must confirm their order.<br>
-12. The administrator can edit the catalog and control product quantities.<br>
-13. The administrator can mark items as "new", "discounted", or "out of stock".<br>
-<br>
-Non-Functional Requirements<br>
-1. The site supports at least 1,000 simultaneous users.<br>
-2. The interface is intuitive and easy to navigate.<br>
-3. The system ensures data security — user data is confidential, passwords are hashed.<br>
-4. The site is optimized for desktop and mobile devices.<br>
-5. Pages load quickly and operate efficiently under high traffic.<br>
-<br>
-Use Case Diagram<br>
-Administrator: can edit products, categories, availability, manage events/promotions, and update user profiles.<br>
-User: can browse the site, search using technical filters (brand, specs, price), and compare items.<br>
-Registered User: can create a personal account, place orders, track delivery, and leave reviews.<br>
+After registration or login, a user gets access to their account with:<br>
+1. Personal Data — left block with personal info (name, phone, email, and optional photo).
+2. Orders — right block showing the list of previous orders.
+
+Functional Requirements
+1. Guests can freely visit the website.
+2. Guests can browse all product categories.
+3. Guests can view detailed information about a product.
+4. Users can create an account or log in.
+5. A gallery page with product photos is available.
+6. Store information (contacts, location, and social media) is accessible.
+7. Authorized users can place orders.
+8. Users can edit the cart before finalizing an order.
+9. Users can select a payment and delivery method.
+10. Users must confirm their order.
+11. The administrator can edit the product catalog and quantities.
+
+Non-Functional Requirements
+1. The site supports at least 1,000 users simultaneously.
+2. The interface is intuitive and easy to use.
+3. The system ensures data security — client data is confidential, passwords are hashed.
+4. The site works on both desktop and mobile devices.
+
+Use Case Diagram
+* Administrator: can edit products, assortment, availability, add events/promotions, and manage user profiles.
+* User: can browse the site and products, and search using various filters (price, color, type).
+* Registered User: can create a personal account, place orders, and leave reviews.
